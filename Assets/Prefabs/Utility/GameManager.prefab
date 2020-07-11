@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4144509664193322659
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1517199376202610580}
+  - component: {fileID: 5445789702481659062}
+  - component: {fileID: 1516088673727414392}
+  m_Layer: 2
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1517199376202610580
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4144509664193322659}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5445789702481659062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4144509664193322659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee466c6b73283f54bb63c233378cd05a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_NoStaticCamera: 1
+  m_WorldStateData: {fileID: 11400000, guid: 8d927da1f2f5d5f4cbbb13490be09df8, type: 2}
+  m_CurrentPlayerSpawnPoint: {fileID: 0}
+  m_PlayerCharacter: {fileID: 0}
+  m_CameraMovement: {fileID: 0}
+  m_SoundManager: {fileID: 1516088673727414392}
+  m_PlayerInput: {fileID: 0}
+  m_PlayerRigidbody: {fileID: 0}
+  m_PlayerAnimator: {fileID: 0}
+  m_SnowSpeedMaxUncorrupted: {x: -1, y: -1.7, z: 0}
+  m_SnowSpeedMinUncorrupted: {x: -0.8, y: -1.1, z: 0}
+  m_SpawnAmountUncorrupted: 10000
+  m_SnowSpeedMaxCorrupted: {x: -5, y: -5, z: 0}
+  m_SnowSpeedMinCorrupted: {x: -2.5, y: -2.5, z: 0}
+  m_SpawnAmountCorrupted: 50000
+  m_SnowSpeedMaxFullCorrupted: {x: -10, y: -10, z: 0}
+  m_SnowSpeedMinFullCorrupted: {x: -5, y: -5, z: 0}
+  m_SpawnAmountFullCorrupted: 100000
+  m_SnowAsset: {fileID: 8926484042661614526, guid: 193488025f977aa4b8b191d920b71758,
+    type: 3}
+  m_PlayerSpawnPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_ShrineLights:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_ChangingStones:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_ButtonPrompts:
+  - {fileID: 0}
+  - {fileID: 0}
+  m_OriginalCameraPosition: {x: 0, y: 0, z: 0}
+  m_OriginalCameraRotation: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &1516088673727414392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4144509664193322659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e7c5dd6c7d6ed74bbeaebc9a32c8b26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EventSoundName: 
+  m_Sounds:
+  - name: Peaceful
+    clip: {fileID: 8300000, guid: aef2173addae99445a68f658083fe89c, type: 3}
+    volume: 1
+    pitch: 1
+    audioFilter: {fileID: 0}
+    timeMultipier: 1
+  - name: OverWorld
+    clip: {fileID: 8300000, guid: b3bf82b1699a0fd459d6274bcb1ce650, type: 3}
+    volume: 0.5
+    pitch: 1
+    audioFilter: {fileID: 0}
+    timeMultipier: 1
+  - name: SpiritWorld
+    clip: {fileID: 8300000, guid: f8ba869702780a74a82c52c47198a5ee, type: 3}
+    volume: 0.5
+    pitch: 1
+    audioFilter: {fileID: 0}
+    timeMultipier: 1
+  - name: Wind
+    clip: {fileID: 8300000, guid: bea7432d3a9c4684994c37d100f40145, type: 3}
+    volume: 0.75
+    pitch: 1
+    audioFilter: {fileID: 0}
+    timeMultipier: 1
+  - name: LevelLoaded
+    clip: {fileID: 8300000, guid: c9fa51265a9c07245ad00a17ea396f21, type: 3}
+    volume: 0.5
+    pitch: 1
+    audioFilter: {fileID: 0}
+    timeMultipier: 1
+  - name: Transition
+    clip: {fileID: 8300000, guid: 1aefb052dabb5a648a67e802d9f27951, type: 3}
+    volume: 0.75
+    pitch: 1
+    audioFilter: {fileID: 0}
+    timeMultipier: 1

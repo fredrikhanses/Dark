@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41e19abbd6b82df459811a3bb62e773d, type: 3}
+  m_Name: GoodEnding
+  m_EditorClassIdentifier: 
+  dialogue:
+  - name: 
+    image: {fileID: 0}
+    textSpeed: 0.002
+    text:
+    - "As your body connects with Keres, you hear the sound of breaking glass. It
+      reverberates throughout your body, filling every core of your being. \nYou
+      stand up and look around, but all that is left of your mother is just a smoke
+      cloud, slowly fading away.\n\n- Press F to continue -"
+    - 'As you look at the dissipating cloud, you hear a voice, the voice of your
+      mother, but filled with more love than you ever heard before.
+
+
+      - Press
+      F to continue -'
+    - "Mother:\n\u201CThank you my child. Thank you for freeing me from the corruption
+      that had taken over me.\u201D\n\n- Press F to continue -"
+    - "Mother:\n\u201CNow it's up to you to take my place, and become the new protector
+      of the world. I know you will make me proud.\u201D\n\n- Press F to continue
+      -"
+    - "Mother:\n\u201CI just need to say how sorry I am for abandoning you. I always
+      watched you from afar. \nI wished I could have spent more time with you, and
+      everyday tell you how much I love you.\u201D\n\n- Press F to continue -"
+    - 'Mother:
+
+      The wind ruffles your cloths, a first and final embrace.
+
+
+      -
+      Press F to continue -'
+    - "Mother:\n\u201CI must go now. Know that I always loved you my child, and always
+      will.\u201D\n\n- Press F to continue -"
+    - "Mother:\n\u201CMy beautiful Chinue.\u201D\n\n- Press F to continue -"
+    - "The wind died down and the voice faded away and as you look around you notice
+      that the mortal realm is slowly fading in. \nBut it is not the world that you
+      saw before, in its corrupted state.\n\n- Press F to continue -"
+    - 'What you see is a world on the verge of healing. As you look around you notice
+      something small on the ground, breaking through the ground.
+
+
+      - Press
+      F to continue -'
+    - 'A small sapling, growing anew.
+
+
+      - Press F to continue -'

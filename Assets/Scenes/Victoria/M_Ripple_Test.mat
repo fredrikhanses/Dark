@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Ripple_Test
+  m_Shader: {fileID: -6465566751694194690, guid: 0bdf944c9838a594cacf1371ccc8f0cd,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    MotionVector: User
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_42C108CA:
+        m_Texture: {fileID: 2800000, guid: b75016de34cea804d9e5e7d92586509d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_E205D884:
+        m_Texture: {fileID: 2800000, guid: 013d86380e57f7a4ab34c8de308e6574, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_82896E4E_Texture_1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_16C44745: 14.81
+    - Vector1_366ED36F: 0.4
+    - Vector1_511FFEE4: 0.1
+    - Vector1_543087AE: 1
+    - Vector1_5A046840: 1
+    - Vector1_5D8C5BDA: -0.07
+    - Vector1_88D2B701: 0.4
+    - Vector1_AE0DFE03: 30.2
+    - Vector1_B7856751: 0.5
+    - Vector1_E8A03166: -0.1
+    - Vector1_EC076774: 0.3
+    m_Colors:
+    - Color_95501176: {r: 94.562645, g: 299.83276, b: 345.96088, a: 0}
+    - Vector2_A08089: {r: 0.52, g: 0.41, b: 0, a: 0}
+    - Vector3_609A37A6: {r: 0, g: 0, b: 0, a: 0}

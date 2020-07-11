@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41e19abbd6b82df459811a3bb62e773d, type: 3}
+  m_Name: RigthBeforeLastTree
+  m_EditorClassIdentifier: 
+  dialogue:
+  - name: 
+    image: {fileID: 0}
+    textSpeed: 0.035
+    text:
+    - "Mother:\n\u201CYou are here. Finally. What took you so long?\u201D"
+    - "Mother:\n\u201CThe final stretch is ahead of us. Destroy this final tree and
+      the world will be saved.\u201D"
+    - "Mother:\n\u2026.."
+    - "Mother:\n\u201CWhy do you hesitate? You need to finish this now! Or else the
+      shadows cannot turn this place in the paradise it should be!"
+    - "Mother:\n\u201CWe cannot stop now. The shadows grows hungry. We must save
+      them.\u201D"
+    - "Mother:\n\u201CDo it, before my powers disappear. If I die now, this world
+      will not become the paradise it should be.\u201D"

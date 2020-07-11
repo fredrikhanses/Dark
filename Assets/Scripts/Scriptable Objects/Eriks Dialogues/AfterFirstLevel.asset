@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41e19abbd6b82df459811a3bb62e773d, type: 3}
+  m_Name: AfterFirstLevel
+  m_EditorClassIdentifier: 
+  dialogue:
+  - name: Keres
+    image: {fileID: 21300000, guid: 37bfcdbcea9feaf4991b9a5aca17887a, type: 3}
+    textSpeed: 0.002
+    text:
+    - "Mother:\n\u201CSee child. See how the corruption flees. Soon we will have
+      eradicated it all and the world will be pure once more.\u201D"
+    - "Mother:\n\u201CNow head for the next shrine in the old mine on the mountain.
+      I shall open up another portal there.\u201D"

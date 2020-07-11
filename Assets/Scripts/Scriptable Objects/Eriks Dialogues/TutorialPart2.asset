@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41e19abbd6b82df459811a3bb62e773d, type: 3}
+  m_Name: TutorialPart2
+  m_EditorClassIdentifier: 
+  dialogue:
+  - name: Keres
+    image: {fileID: 21300000, guid: a308eb214acdcb449a64778b427e32e0, type: 3}
+    textSpeed: 0.035
+    text:
+    - "Mother:\n\u201CWell done! You learn quickly. You make me proud.\u201D"
+    - "Mother:\n\u201CNow we must work fast. The corruption has already started to
+      spread across the land.\u201D"
+    - "Mother:\n\u201CYou will have to travel to the three different shrines in this
+      area dedicated to me.\""
+    - "Mother:\n\"There I should have enough power to open up a portal to the spirit
+      world. Once there I will tell you what to do.\u201D"
+    - "Mother:\n\u201CThe first shrine is not far from here. Follow the ravine and
+      you will find your destination.\""
+    - "Mother:\n\u201CI cannot talk longer, as I already feel my power dissipating.\u201D "
+    - "Mother:\n\u201CGo Chinue. I will meet you in the spirit world.\u201D "

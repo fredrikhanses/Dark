@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41e19abbd6b82df459811a3bb62e773d, type: 3}
+  m_Name: IntroSequence
+  m_EditorClassIdentifier: 
+  dialogue:
+  - name: Keres
+    image: {fileID: 0}
+    textSpeed: 0.002
+    text:
+    - "\u201CMy child. My darling Chinue. How beautiful you have become.\u201D\n\n-
+      Press F to continue -"
+    - "\u201CPlease, don't be afraid. I am Keres, the spirit goddess of nature. I
+      have come to you, because I am in need of your help.\u201D\n\n- Press F to
+      continue -"
+    - "\u201CThe world is being corrupted as we speak. With the loss of my powers
+      there is nothing that I can do. That is why I need your help.\u201D\n\n- Press
+      F to continue -"
+    - "\u201CYou are my daughter. You are the conduit between the spirit world and
+      the mortal realm. You are the only one that can save us now.\u201D\n\n- Press
+      F to continue -"
+    - "\u201CNow awaken my child. We need you. I need you\u2026.\u201D\n\n- Press
+      F to continue -"

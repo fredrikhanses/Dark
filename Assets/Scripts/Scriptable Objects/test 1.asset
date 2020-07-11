@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41e19abbd6b82df459811a3bb62e773d, type: 3}
+  m_Name: test 1
+  m_EditorClassIdentifier: 
+  dialogue:
+  - name: Sam
+    image: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+    textSpeed: 0.05
+    text:
+    - Welcome to the Dialog system.
+    - Here you can implement dialogs between 1 or multiple characters.
+    - This includes changing the image and name and even text speed.
+    - You can even fast forward the text if you get impatient.
+  - name: Lol
+    image: {fileID: 21300000, guid: 5df0d842b8abef9498e6a04db720b8d4, type: 3}
+    textSpeed: 0.025
+    text:
+    - Lol
