@@ -25,7 +25,11 @@ public class PuzzleSwitch : GateBoolean, IInteract
                 throw new System.ArgumentNullException("Missing Material in: " + gameObject.name + " for PuzzleSwitch Script");
             }
         }
-
+        else
+        {
+            Set(false);
+            Set(true);
+        }
         m_SwitchActive = true;
     }
 }

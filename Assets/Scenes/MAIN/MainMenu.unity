@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 139.94438, g: 187.6338, b: 239.27995, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1837,6 +1837,41 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 3376593460330410411, guid: a950a7a75df56b64b9c02a88ee4fb15f,
+        type: 3}
+      propertyPath: m_PlayerRigidbody
+      value: 
+      objectReference: {fileID: 611463678}
+    - target: {fileID: 3376593460330410411, guid: a950a7a75df56b64b9c02a88ee4fb15f,
+        type: 3}
+      propertyPath: ShadowDashChargeOffset
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3376593460330410411, guid: a950a7a75df56b64b9c02a88ee4fb15f,
+        type: 3}
+      propertyPath: ShadowForwardOffset
+      value: 0.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 4950126286200381927, guid: a950a7a75df56b64b9c02a88ee4fb15f,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4950126286200381927, guid: a950a7a75df56b64b9c02a88ee4fb15f,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4950126286200381927, guid: a950a7a75df56b64b9c02a88ee4fb15f,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4950126286200381927, guid: a950a7a75df56b64b9c02a88ee4fb15f,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 0.39215687
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a950a7a75df56b64b9c02a88ee4fb15f, type: 3}
 --- !u!114 &611463671 stripped
@@ -2457,6 +2492,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BigSpruce002 Variant (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7360090271660394142, guid: 94b5696c32dc38c4eb87ed67fb909bc2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7759003263887422526, guid: 94b5696c32dc38c4eb87ed67fb909bc2,
+        type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94b5696c32dc38c4eb87ed67fb909bc2, type: 3}
@@ -3358,7 +3403,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 445242905115783222, guid: 006a9c7bc71ba1340a3f87040763257e, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 006a9c7bc71ba1340a3f87040763257e, type: 3}
 --- !u!114 &1103545372 stripped
 MonoBehaviour:
@@ -6608,6 +6654,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 5852899490462162615, guid: c63d79ff113618c44b122a1e6e8faebe,
+        type: 3}
+      propertyPath: m_AdditionalShaderChannelsFlag
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 5852899490537395037, guid: c63d79ff113618c44b122a1e6e8faebe,
         type: 3}
       propertyPath: m_AnchorMin.x
@@ -6638,6 +6689,11 @@ PrefabInstance:
       propertyPath: m_TargetCamera
       value: 
       objectReference: {fileID: 481442380}
+    - target: {fileID: 7517523048364911546, guid: c63d79ff113618c44b122a1e6e8faebe,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c63d79ff113618c44b122a1e6e8faebe, type: 3}
 --- !u!1 &5852899490493898005 stripped
