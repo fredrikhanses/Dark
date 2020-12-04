@@ -9,3 +9,22 @@ In Alter you set out on a mission to cleanse the world from corruption. To succe
 Alter was developed in Unity in seven weeks as a part of a game project at Futuregames, a higher vocational education for game development, in Stockholm, Sweden.
 
 Download game: https://fredrikhanses.itch.io/alter
+
+Credits:
+  Programming: 
+    Fredrik Hanses
+    Kevin Cederqvist
+    Samuel Gustafsson
+  Design:
+    Vladimir Stanisic
+    Jonathan Antonsson
+    Erik Wahlström
+  3D:
+    Philip Rothman
+    Victoria Reinhold
+    Knut Svanfeldt
+  2D:
+    Philip Back
+    Carl-Victor Norberg
+  Trailer Narrator:
+    Axel Gandemar
