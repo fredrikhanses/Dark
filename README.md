@@ -11,20 +11,30 @@ Alter was developed in Unity in seven weeks as a part of a game project at Futur
 Download game: https://fredrikhanses.itch.io/alter
 
 Credits:
-  Programming: 
+
+  Programming:
+
     Fredrik Hanses
     Kevin Cederqvist
     Samuel Gustafsson
+    
   Design:
+  
     Vladimir Stanisic
     Jonathan Antonsson
     Erik Wahlström
+    
   3D:
+  
     Philip Rothman
     Victoria Reinhold
     Knut Svanfeldt
+    
   2D:
+  
     Philip Back
     Carl-Victor Norberg
+    
   Trailer Narrator:
+  
     Axel Gandemar
